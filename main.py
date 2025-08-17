@@ -122,7 +122,7 @@ images, labels = images.to(device), labels.to(device)
 outputs = model(images)
 _, predicted = torch.max(outputs, 1)
 
-# Pick one sample (e.g., first image)
+
 idx = 0
 print("True label:", classes[labels[idx]])
 print("Predicted :", classes[predicted[idx]])
