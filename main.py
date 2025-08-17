@@ -127,7 +127,8 @@ idx = 0
 print("True label:", classes[labels[idx]])
 print("Predicted :", classes[predicted[idx]])
 
-# Show image
+
+
 import matplotlib.pyplot as plt
 plt.imshow(images[idx].cpu().squeeze(), cmap="gray")
 plt.title(f"True: {classes[labels[idx]]}, Pred: {classes[predicted[idx]]}")
