@@ -118,7 +118,7 @@ classes = [
 images, labels = next(iter(test_loader))
 images, labels = images.to(device), labels.to(device)
 
-# Predict
+
 outputs = model(images)
 _, predicted = torch.max(outputs, 1)
 
