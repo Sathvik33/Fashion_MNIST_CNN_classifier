@@ -114,7 +114,7 @@ classes = [
     "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"
 ]
 
-# Get a batch from test_loader
+
 images, labels = next(iter(test_loader))
 images, labels = images.to(device), labels.to(device)
 
